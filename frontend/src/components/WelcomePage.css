@@ -1,0 +1,132 @@
+.welcome-bg {
+  background: radial-gradient(circle at 50% 20%, #242c44 70%, #151a2e 100%);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.welcome-card {
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 4px 32px 0 rgba(54, 51, 94, 0.13);
+  padding: 48px 36px 32px 36px;
+  max-width: 480px;
+  width: 100%;
+  text-align: center;
+}
+
+.welcome-icon {
+  margin-bottom: 14px;
+}
+
+.welcome-title {
+  font-size: 2.3rem;
+  font-weight: 700;
+  color: #23263b;
+  margin: 0;
+}
+
+.welcome-subtitle {
+  color: #7d7a9e;
+  margin: 8px 0 26px 0;
+  font-size: 1.1rem;
+}
+
+.welcome-question {
+  margin: 0 0 18px 0;
+  font-size: 1.18rem;
+  color: #23263b;
+  font-weight: 600;
+}
+
+.welcome-features {
+  display: flex;
+  gap: 22px;
+  justify-content: center;
+  margin-bottom: 34px;
+  flex-wrap: wrap;
+}
+
+.welcome-feature {
+  background: #f7f7fa;
+  border-radius: 14px;
+  flex: 1 1 115px;
+  min-width: 115px;
+  max-width: 145px;
+  padding: 18px 12px 12px 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 1px 8px 0 rgba(54, 51, 94, 0.04);
+}
+.welcome-feature svg {
+  margin-bottom: 8px;
+}
+.welcome-feature b {
+  font-size: 1rem;
+  color: #23263b;
+  margin-bottom: 3px;
+}
+.welcome-feature span {
+  color: #7d7a9e;
+  font-size: 0.97rem;
+}
+
+.welcome-actions {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.btn-primary {
+  background: #7b61ff;
+  color: #fff;
+  border: none;
+  padding: 12px 28px;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: box-shadow 0.2s;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 2px 8px 0 rgba(54, 51, 94, 0.08);
+  text-decoration: none;
+}
+.btn-primary:hover {
+  background: #6d56e7;
+}
+
+.btn-outline {
+  background: #fff;
+  color: #7b61ff;
+  border: 2px solid #ece8fb;
+  padding: 12px 26px;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn-outline:hover {
+  background: #f7f7fa;
+  border-color: #d8d5f4;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .welcome-card {
+    padding: 30px 6vw 22px 6vw;
+    max-width: 98vw;
+  }
+  .welcome-features {
+    flex-direction: column;
+    gap: 12px;
+  }
+}

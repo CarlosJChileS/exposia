@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  background: #ddeaff;
+  color: #000;
+  font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+}
+
+h1, h2, h3, h4 {
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+button {
+  background: linear-gradient(90deg, #6547ff 0%, #2ea8ff 100%);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 20px;
+  font-weight: 600;
+  font-size: 1em;
+  cursor: pointer;
+  margin: 5px;
+  transition: background 0.2s;
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.card {
+  background: #ddeaff;
+  border-radius: 14px;
+  box-shadow: 0 2px 14px #0002;
+  padding: 32px 24px;
+  margin: 24px 0;
+}
+
+@media (max-width: 800px) {
+  .card { padding: 16px 4px; }
+  .slide-img { max-width: 98vw !important; }
+}
+
+.back-btn {
+  background: #f6f7fa;
+  color: #6b47ff;
+  font-weight: 600;
+  border: 1.5px solid #ebe8fe;
+  border-radius: 7px;
+  padding: 8px 15px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.14s;
+}
+.back-btn:hover {
+  background: #ebe8fe;
+}

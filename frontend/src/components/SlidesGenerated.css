@@ -1,0 +1,341 @@
+.slides-bg {
+  min-height: 100vh;
+  background: #ddeaff;
+  padding: 20px 0;
+}
+.preview-bg {
+  min-height: 100vh;
+  background: #ddeaff;
+  padding: 20px;
+  color: #000;
+}
+.back-btn {
+  background: #f6f7fa;
+  color: #6b47ff;
+  font-weight: 600;
+  border: 1.5px solid #ebe8fe;
+  border-radius: 7px;
+  padding: 8px 15px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.14s;
+}
+.back-btn:hover {
+  background: #ebe8fe;
+}
+.slides-container {
+  max-width: 1200px;
+  margin: 35px auto;
+  background: #f8fafd;
+  border-radius: 10px;
+  box-shadow: 0 1px 8px #0001;
+  padding: 38px 32px 28px 32px;
+}
+.slides-breadcrumb {
+  color: #8d8dae;
+  font-size: 0.97rem;
+  margin-bottom: 13px;
+}
+.arrow {
+  margin: 0 7px;
+  color: #aaa;
+}
+.slides-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  gap: 18px;
+}
+.slides-title {
+  font-size: 2rem;
+  font-weight: 800;
+  color: #21244c;
+  margin-bottom: 3px;
+}
+.slides-sub {
+  color: #5c5c7c;
+  font-size: 1.04rem;
+}
+.slides-actions {
+  display: flex;
+  gap: 10px;
+}
+.preview-btn {
+  background: #f6f7fa;
+  color: #6b47ff;
+  font-weight: 600;
+  border: 1.5px solid #ebe8fe;
+  border-radius: 7px;
+  padding: 10px 18px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.14s;
+}
+.preview-btn:hover {
+  background: #ebe8fe;
+}
+.start-btn {
+  background: #6b47ff;
+  color: #fff;
+  border: none;
+  border-radius: 7px;
+  padding: 10px 18px;
+  font-weight: 700;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.14s;
+}
+.start-btn:hover {
+  background: #523ac9;
+}
+
+.slides-content {
+  display: flex;
+  gap: 25px;
+  margin-top: 10px;
+}
+.slides-main {
+  flex: 1.7;
+}
+.slides-main-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 700;
+  color: #21244c;
+  font-size: 1.13rem;
+  margin-bottom: 14px;
+}
+.grid-btn {
+  background: #f6f7fa;
+  border: 1.5px solid #ebe8fe;
+  border-radius: 7px;
+  padding: 6px 11px;
+  color: #9c7efe;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+.slides-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 14px;
+}
+.slide-card {
+  background: #fff;
+  border: 1.5px solid #ebe8fe;
+  border-radius: 9px;
+  padding: 17px 14px 13px 14px;
+  min-height: 130px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: 0.15s;
+  box-shadow: 0 2px 9px #00000008;
+}
+.slide-card:hover {
+  border-color: #a192ff;
+  box-shadow: 0 4px 12px #887be91e;
+}
+.slide-title {
+  font-weight: 700;
+  color: #1a1b36;
+  font-size: 1.08rem;
+  margin-bottom: 6px;
+}
+.slide-body {
+  list-style: none;
+  padding: 0 0 0 8px;
+  margin: 0 0 5px 0;
+  color: #65659b;
+  font-size: 0.98rem;
+}
+.slide-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 7px;
+}
+.slide-num {
+  color: #7c6eff;
+  font-weight: 700;
+  font-size: 0.99rem;
+}
+.slide-options {
+  color: #b9b6ca;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.slides-sidebar {
+  flex: 1;
+  min-width: 290px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.info-panel {
+  background: #fff;
+  border-radius: 9px;
+  border: 1.5px solid #ebe8fe;
+  padding: 18px 17px 17px 17px;
+  margin-bottom: 16px;
+}
+.info-title {
+  font-weight: 700;
+  color: #21244c;
+  font-size: 1.11rem;
+  margin-bottom: 13px;
+}
+.info-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 9px;
+  font-size: 0.99rem;
+}
+.info-label {
+  color: #6e6c8b;
+  width: 75px;
+  font-weight: 500;
+}
+.info-value {
+  color: #353369;
+  font-weight: 600;
+  margin-left: 8px;
+}
+.info-bar {
+  background: #e2faee;
+  border-radius: 5px;
+  width: 70px;
+  height: 8px;
+  margin-left: 8px;
+  margin-right: 8px;
+  overflow: hidden;
+  display: inline-block;
+}
+.bar-green {
+  display: block;
+  background: #20d59a;
+  height: 100%;
+  border-radius: 5px;
+}
+
+.practice-config {
+  background: #fff;
+  border-radius: 9px;
+  border: 1.5px solid #ebe8fe;
+  padding: 18px 17px 18px 17px;
+}
+.config-title {
+  font-weight: 700;
+  color: #21244c;
+  font-size: 1.11rem;
+  margin-bottom: 15px;
+}
+.config-row {
+  margin-bottom: 14px;
+  color: #65659b;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.config-row label {
+  font-size: 0.98rem;
+  margin-bottom: 2px;
+}
+.config-input {
+  width: 100%;
+  padding: 7px 9px;
+  border: 1.5px solid #ebe8fe;
+  border-radius: 7px;
+  font-size: 1.05rem;
+  color: #38376a;
+  font-weight: 600;
+  background: #f7f8fa;
+}
+.config-row-flex {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+/* Switch Toggle */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 44px;
+  height: 23px;
+}
+.switch input { display: none; }
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-color: #e5e4f7;
+  transition: .3s;
+  border-radius: 20px;
+}
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 17px;
+  width: 17px;
+  left: 3px;
+  bottom: 3px;
+  background-color: white;
+  transition: .3s;
+  border-radius: 50%;
+}
+input:checked + .slider {
+  background-color: #6b47ff;
+}
+input:checked + .slider:before {
+  transform: translateX(20px);
+}
+
+.big-practice-btn {
+  width: 100%;
+  background: #6b47ff;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 13px 0;
+  font-size: 1.09rem;
+  font-weight: 700;
+  margin-top: 6px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  justify-content: center;
+  transition: 0.14s;
+}
+.big-practice-btn:hover {
+  background: #523ac9;
+}
+
+@media (max-width: 1050px) {
+  .slides-content {
+    flex-direction: column;
+  }
+  .slides-sidebar {
+    min-width: 0;
+    width: 100%;
+  }
+}
+@media (max-width: 700px) {
+  .slides-list {
+    grid-template-columns: 1fr 1fr;
+  }
+  .slides-container {
+    padding: 18px 5vw;
+  }
+}
+@media (max-width: 500px) {
+  .slides-list {
+    grid-template-columns: 1fr;
+  }
+}

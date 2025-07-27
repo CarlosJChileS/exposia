@@ -1,0 +1,35 @@
+.history-bg {
+  min-height: 100vh;
+  background: #ddeaff;
+  padding: 20px 0;
+}
+.history-container {
+  max-width: 800px;
+  margin: 30px auto;
+  background: #f8fafd;
+  border-radius: 10px;
+  box-shadow: 0 1px 8px #0001;
+  padding: 32px 28px;
+}
+.history-title {
+  font-size: 2rem;
+  font-weight: 800;
+  color: #21244c;
+  margin-bottom: 20px;
+}
+.history-list {
+  display: flex;
+  flex-direction: column;
+}
+.history-empty {
+  color: #666;
+}
+.slides-breadcrumb {
+  color: #8d8dae;
+  font-size: 0.97rem;
+  margin-bottom: 13px;
+}
+.arrow {
+  margin: 0 7px;
+  color: #aaa;
+}

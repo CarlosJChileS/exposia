@@ -1,0 +1,108 @@
+.register-bg {
+  background: radial-gradient(circle at 50% 20%, #242c44 70%, #151a2e 100%);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.register-card {
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 4px 32px 0 rgba(54, 51, 94, 0.13);
+  padding: 40px 34px 28px 34px;
+  max-width: 370px;
+  width: 100%;
+  text-align: center;
+}
+
+.register-icon {
+  margin-bottom: 10px;
+}
+
+.register-title {
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: #23263b;
+  margin: 0;
+}
+
+.register-subtitle {
+  color: #7d7a9e;
+  margin: 7px 0 18px 0;
+  font-size: 1rem;
+}
+
+.register-form {
+  text-align: left;
+  margin-top: 14px;
+}
+
+.register-form label {
+  display: block;
+  font-size: 1rem;
+  color: #23263b;
+  font-weight: 500;
+  margin-bottom: 13px;
+}
+
+.register-form input[type="email"],
+.register-form input[type="password"] {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1.5px solid #ece8fb;
+  border-radius: 8px;
+  font-size: 1rem;
+  margin-top: 4px;
+  margin-bottom: 7px;
+  background: #f7f7fa;
+  color: #23263b;
+  transition: border 0.2s;
+}
+
+.register-form input:focus {
+  border-color: #7b61ff;
+  outline: none;
+}
+
+.btn-register {
+  width: 100%;
+  background: #7b61ff;
+  color: #fff;
+  border: none;
+  padding: 11px 0;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background 0.2s;
+}
+.btn-register:hover {
+  background: #6d56e7;
+}
+
+.register-login {
+  color: #7d7a9e;
+  font-size: 0.97rem;
+  margin-top: 18px;
+}
+.register-link {
+  color: #7b61ff;
+  font-weight: 600;
+  text-decoration: none;
+  margin-left: 3px;
+}
+.register-link:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 480px) {
+  .register-card {
+    padding: 20px 4vw 16px 4vw;
+    max-width: 98vw;
+  }
+}

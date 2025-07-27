@@ -1,0 +1,24 @@
+.practice-bg {
+  background: #ddeaff;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.practice-header {
+  color: #000;
+  margin-bottom: 20px;
+}
+
+.practice-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.timer {
+  font-weight: 700;
+}
+
+.recorder-container {
+  margin-bottom: 20px;
+}
